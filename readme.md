@@ -2,6 +2,8 @@
 
 small web project to calculate compounding interest and graph portfolio value from 1-30 years.
 
+live at [pcalc.rpx.io](http://pcalc.rpx.io)
+
 ### diy
 `$ git clone https://github.com/rpxio/pcalc.git`  
 `$ cd pcalc`  

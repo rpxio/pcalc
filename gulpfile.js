@@ -49,4 +49,4 @@ gulp.task('watch', ['browserSync', 'sass', 'copy'], function() {
 });
 
 // default task
-gulp.task('default', ['clean']);
+gulp.task('default', ['watch']);

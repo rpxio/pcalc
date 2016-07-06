@@ -11,6 +11,7 @@ live at [pcalc.rpx.io](http://pcalc.rpx.io)
 `$ gulp watch`  
 
 ### todo
+- add breakdown table of values under chart
 - make chart easier to read (learn to use d3.js?)
 - concatenate numbers like $100000 to $100k, $10500 to $10.5k, etc.
 - fix form layout

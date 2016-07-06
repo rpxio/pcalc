@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='css/style.css' type='text/css'>
+    <script src='js/scripts.js' type='text/javascript'></script>
+</head>
+<body>
+    <div class='wrapper'>
+    
+        <header>
+            <h1>Portfolio Calculator</h1>
+        </header>
+
+        <section>
+            <div class='left'>
+                <h2>Initial Investment</h2>
+                <p>How much am I contributing the first year?</p>
+            </div>
+            <div class='right'>
+                <span>$</span>
+                <input type='text' id='initial' placeholder='5000' size='8' autofocus='true'>
+            </div>
+        </section>
+
+        <section>
+            <div class='left'>
+                <h2>Recurring Investment</h2>
+                <p>How much am I planning to contribute annually?</p>
+            </div>
+            <div class='right'>
+                <span>$</span>
+                <input type='text' id='recurring' placeholder='5000' size='8'>
+            </div>
+        </section>
+
+        <section>
+            <div class='left'>
+                <h2>Average Annual Return</h2>
+                <p>What percentage return do I hope to see?</p>
+            </div>
+            <div class='right'>
+                <input type='text' id='return' value='8' size='6'>
+                <span>%</span>
+            </div>
+        </section>
+
+        <section id='submit'>
+            <button class='btn' onclick='drawGraph();'>Calculate</button>
+        </section>
+
+        <section id='hidden'>
+            <div class='ct-chart ct-octave'></div>
+            <div class='key'><span class='block red'></span> Recurring Only</div>
+            <div class='key'><span class='block pink'></span> With Interest</div>
+        </section>
+        
+        <footer>
+            <a href='https://rpx.io'>rpx.io</a>
+
+            <div class='right'>
+                <a href='https://github.com/rpxio/pcalc/issues' target='_blank'>Issues</a>
+                &bull;
+                <a href='https://github.com/rpxio/pcalc/' target='_blank'>Fork Me</a>
+            </div>
+        </footer>
+
+    </div>
+
+    <script type='text/javascript' src='js/chartist.min.js'></script>
+</body>
+</html>

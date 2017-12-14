@@ -1,13 +1,13 @@
 {
-  "name": "frame",
+  "name": "pcalc",
   "version": "1.0.0",
-  "description": "simple website framework",
+  "description": "calculate your financial portfolio",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.13.0",
     "del": "^2.2.1",

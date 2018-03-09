@@ -17,3 +17,6 @@ small web project to calculate compounding interest and graph portfolio value fr
 - fix form layout
 
 :moneybag::moneybag::moneybag:
+
+### screenshot
+![screenshot](screenshot.png)
